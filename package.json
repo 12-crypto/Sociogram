@@ -1,0 +1,29 @@
+{
+  "name": "social-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12-crypto/social-media.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/12-crypto/social-media/issues"
+  },
+  "homepage": "https://github.com/12-crypto/social-media#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
