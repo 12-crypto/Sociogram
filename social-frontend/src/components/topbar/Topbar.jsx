@@ -6,7 +6,7 @@ export default function Topbar() {
   return (
     <div className="topbarContainer " style={{margin: '1px'}}>
       <div className="topbarLeft">
-        <Link to="/">
+        <Link to="/" style={{textDecoration:"none"}}>
         <span className="logo">Sociogram</span>
         </Link>
       </div>
