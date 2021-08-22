@@ -15,7 +15,7 @@ export default function Post({ post }) {
   useEffect(() => {
     //  console.log("feed rendered")
         const fetchUser = async() =>{
-        const res = await axios.get(`users/${post.userId}`);  
+        const res = await axios.get(`/users?userId=${post.userId}`);  
         
         setUser(res.data)
       }
