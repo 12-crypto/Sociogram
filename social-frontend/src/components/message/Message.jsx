@@ -11,11 +11,10 @@ export default function Message({ message, own }) {
           alt=""
         />
         <p className="messageText">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Hic et assumenda provident, consequatur eligendi suscipit
-         </p>
+          {message.text}
+        </p>
       </div>
-      <div className="messageBottom">12 mins ago</div>
+      <div className="messageBottom">{format(message.createdAt)}</div>
     </div>
   );
 }

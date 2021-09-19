@@ -25,10 +25,12 @@ export default function Conversation({ conversation, currentUser }) {
     <div className="conversation">
       <img
         className="conversationImg"
-        src= {user.profilePicture ? user.profilePicture : PF+"person/1.jpeg"} 
+        src= {user?.profilePicture
+           ? PF + user.profilePicture
+            : PF+"person/1.jpeg"} 
         alt=""
       />
-      <span className="conversationName">{user.username}</span>
+      <span className="conversationName">{user?.username}</span>
     </div>
   );
 }
