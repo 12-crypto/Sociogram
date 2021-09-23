@@ -34,7 +34,7 @@ export default function Profile() {
                 className="profileCoverImg"
                 src={user.coverPicture
                   ? PF + user.coverPicture
-                  : PF + "person/10.jpeg"
+                  : PF + "post/3.jpeg"
               }
                 alt=""
               />
